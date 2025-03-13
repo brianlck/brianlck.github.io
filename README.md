@@ -1,7 +1,12 @@
+### Notes
+
+This repository uses multiple component from [http://ekzhang.com](https://ekzhang.com)
+
 ### TODO
 
 1. SEO
 2. Update favicon
+3. Clean up code
 
 # sv
 
