@@ -1,16 +1,15 @@
 <script lang="ts">
 </script>
 
-<div class="descriptor layout-md mb-12 text-xl leading-tight text-black">
+<div class="descriptor layout mb-12 text-xl leading-tight text-black">
 	<span class="g"> A </span> Software Engineer <span class="g"> and </span> Researcher
 	<hr class="mt-5" />
 </div>
 
-<div class="layout-md space-y-14 text-lg font-seif">
+<div class="layout space-y-14 text-lg font-seif">
 	<div class="space-y-5">
 		<p>
-			I am a visitor at <a class="link" href=""> Cambridge </a>, where I study
-			<b> generative modelling </b>.
+			I am a currently visitor at the <a class="link" href="https://www.cam.ac.uk/"> University of Cambridge </a>.
 		</p>
 
 		<p>
@@ -22,7 +21,7 @@
 
 		<p>
 			Feel free to reach out at
-			<a class="link" href="mailto:brianlee.lck@gmail.com">brianlee.lck@gmail.com</a>
+			<a class="link" href="mailto:brianlee.lck@gmail.com">brianlee.lck@gmail.com</a>.
 		</p>
 	</div>
 

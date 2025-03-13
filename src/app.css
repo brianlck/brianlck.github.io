@@ -11,7 +11,7 @@
   @apply dark:hover:text-white dark:hover:decoration-white;
 }
 
-.layout-md {
+.layout {
   @apply max-w-screen-md mx-auto px-4 sm:px-6;
 }
 

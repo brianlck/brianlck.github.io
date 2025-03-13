@@ -7,6 +7,7 @@ import { dataToEsm } from "@rollup/pluginutils";
 
 
 /** A custom Markdown plugin for Vite, with TOML frontmatter support. */
+/** This plugin originates from ekzhang.com  **/
 function markdown() {
 	return {
 	  name: "markdown",

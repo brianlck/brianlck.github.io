@@ -10,12 +10,12 @@
 
 </script>
 
-<div class="descriptor layout-md mb-12 text-xl leading-tight text-black">
+<div class="descriptor layout mb-12 text-xl leading-tight text-black">
 	<span class="g">@ </span> Publications
 	<hr class="mt-5" />
 </div>
 
-<div class="layout-md font-seif space-y-10 text-lg">
+<div class="layout font-seif space-y-10 text-lg">
 
 	<div class="space-y-10">
 		{#each Object.entries(papers) as [_, paper]}

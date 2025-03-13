@@ -1,6 +1,6 @@
 ### Notes
 
-This repository uses multiple component from [http://ekzhang.com](https://ekzhang.com)
+This repository is built with TailWind, PostCSS, and Svelte.
 
 ### TODO
 
