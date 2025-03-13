@@ -5,8 +5,7 @@ This repository is built with TailWind, PostCSS, and Svelte.
 ### TODO
 
 1. SEO
-2. Update favicon
-3. Clean up code
+2. Clean up code
 
 # sv
 
