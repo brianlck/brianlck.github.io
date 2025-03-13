@@ -30,6 +30,7 @@
 	},
 	"dependencies": {
 		"@rollup/plugin-yaml": "^4.1.2",
+		"@sveltejs/adapter-static": "^3.0.8",
 		"@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
 		"@tailwindcss/postcss": "^4.0.13",
 		"@types/js-yaml": "^4.0.9",
