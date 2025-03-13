@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.link {
+  @apply underline underline-offset-[3px] decoration-neutral-400 dark:decoration-neutral-500;
+  @apply hover:text-black hover:decoration-black transition-colors;
+  @apply dark:hover:text-white dark:hover:decoration-white;
+}
+
+.layout-md {
+  @apply max-w-screen-md mx-auto px-4 sm:px-6;
+}
+
+html {
+  @apply motion-safe:scroll-smooth;
+  font-family: "Merriweather Sans";
+}
+
+body {
+  @apply /* antialiased */ py-12 sm:py-24 md:py-32 text-neutral-700;
+}
+
+.g {
+  @apply text-neutral-400;
+}
+
+hr {
+  @apply mt-4 w-full border-neutral-300;
+}
+
+::selection {
+  @apply bg-neutral-200 dark:bg-neutral-600;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+@font-face {
+  /* For long form body text */
+  font-family: "Merriweather";
+  font-weight: 300 900;
+  src: url("/assets/merriweather/merriweather-variable.woff2") format("woff2-variations");
+  font-display: swap;
+}
+
+@font-face {
+  /* For asides, caption, nav */
+  font-family: "Merriweather Sans";
+  font-weight: 300 900;
+  src: url("/assets/merriweather/merriweather-sans-variable.woff2") format("woff2-variations");
+  font-display: swap;
+}
