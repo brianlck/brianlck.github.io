@@ -16,10 +16,6 @@
 </div>
 
 <div class="layout-md font-seif space-y-10 text-lg">
-	<p>
-		Once upon a time, there were plans to feature non-academic works. However, life happened, and
-		those ideas now linger in the realm of "what might have been."
-	</p>
 
 	<div class="space-y-10">
 		{#each Object.entries(papers) as [_, paper]}
