@@ -9,7 +9,7 @@
 <div class="layout space-y-14 text-lg font-seif">
 	<div class="space-y-5">
 		<p>
-			I am a currently visitor at the <a class="link" href="https://www.cam.ac.uk/"> University of Cambridge </a>.
+			I am currently a visitor at the <a class="link" href="https://www.cam.ac.uk/"> University of Cambridge </a>.
 		</p>
 
 		<p>
