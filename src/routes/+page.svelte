@@ -13,7 +13,7 @@
 		</p>
 
 		<p>
-			In general, I am interested in the mathematical constructions and implementation of computational
+			In general, I am interested in the mathematical construction and implementation of computational
 			techniques in science and technology.
 		</p>
 
