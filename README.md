@@ -4,8 +4,9 @@ This repository is built with TailWind, PostCSS, and Svelte.
 
 ### TODO
 
-1. SEO
-2. Clean up code
+1. Clean up code
+2. Clean dependency
+3. Setup linter and GitHub pre-commit linting check
 
 # sv
 
