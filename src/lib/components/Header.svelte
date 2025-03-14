@@ -5,11 +5,6 @@
       { name: "Papers", href: "/papers" },
     ];
   
-    let pageTitle: string | null = null;
-    $: {
-      const link = links.find(({ href }) => href === $page.url.pathname);
-      pageTitle = link?.name || null;
-    }
   </script>
   
   <header
