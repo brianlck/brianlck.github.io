@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { page } from "$app/stores";
+    import { page } from "$app/state";
   
     const links = [
       { name: "Papers", href: "/papers" },
@@ -20,7 +20,7 @@
         <a
           href={link.href}
           class="hover:text-black transition-colors"
-          class:text-black={$page.url.pathname === link.href}
+          class:text-black={page.url.pathname === link.href}
         >
           {link.name}
         </a>
