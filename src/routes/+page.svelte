@@ -9,7 +9,7 @@
 	<hr class="mt-5" />
 </div>
 
-<div class="layout font-serif space-y-14 text-lg">
+<div class="layout font-light space-y-14 text-lg">
 	<div class="space-y-5">
 		<p> I currently work at Harvard, where I have the privilege of collaborating with talented computer scientists, mathematicians, and physicists. </p>
 
