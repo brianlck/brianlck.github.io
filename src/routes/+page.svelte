@@ -11,11 +11,11 @@
 
 <div class="layout font-serif space-y-14 text-lg">
 	<div class="space-y-5">
-		<p> I work at Harvard where I have the privilege to work with talented computer scientists, mathematicians, and physicists. </p>
+		<p> I currently work at Harvard, where I have the privilege of collaborating with talented computer scientists, mathematicians, and physicists. </p>
 
-		<p> Previously, I worked at Cambridge where I completed my undergraduate studies. I have also held roles in Quantitive Finance.	</p>
+		<p> Before this, I completed my undergraduate studies at Cambridge and held roles in quantitative finance. </p>
 
-		<p> In general, I am interested in all kind of fun things with math and computers. </p>
+		<p> In general, I'm passionate about all kinds of fun and challenging problems involving math and computers. </p>
 
 		<p> Feel free to reach out at <a class="link" href="mailto:brianlee.lck@gmail.com">brianlee.lck@gmail.com</a>. </p>
 	</div>
