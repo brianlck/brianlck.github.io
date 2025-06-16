@@ -11,23 +11,13 @@
 
 <div class="layout font-seif space-y-14 text-lg">
 	<div class="space-y-5">
-		<p>
-			I am currently a visitor at the <a class="link" href="https://www.cam.ac.uk/">
-				University of Cambridge
-			</a>.
-		</p>
+		<p> I work at Harvard where I have the privilege to work with talented computer scientists, mathematicians, and physicists. </p>
 
-		<p>
-			In general, I am interested in the mathematical construction and implementation of
-			computational techniques in science and technology.
-		</p>
+		<p> Previously, I worked at Cambridge where I completed my undergraduate studies. I have also held roles in Quantitive Finance.	</p>
 
-		<p>Outside of work, I like Japanese pop-music, comtemporary art, pigeons, and sleeping.</p>
+		<p> In general, I am interested in all kind of fun things with math and computers. </p>
 
-		<p>
-			Feel free to reach out at
-			<a class="link" href="mailto:brianlee.lck@gmail.com">brianlee.lck@gmail.com</a>.
-		</p>
+		<p> Feel free to reach out at <a class="link" href="mailto:brianlee.lck@gmail.com">brianlee.lck@gmail.com</a>. </p>
 	</div>
 
 	<div class="space-y-5">
