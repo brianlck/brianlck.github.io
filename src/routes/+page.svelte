@@ -13,7 +13,7 @@
 	<div class="space-y-5">
 		<p> I currently work at Harvard, where I have the privilege of collaborating with talented computer scientists, mathematicians, and physicists. </p>
 
-		<p> Before this, I completed my undergraduate studies at Cambridge and held roles in quantitative finance. </p>
+		<p> Before this, I worked at Cambridge where I completed my undergraduate studies. I have also held roles in quantitative finance. </p>
 
 		<p> In general, I'm passionate about all kinds of fun and challenging problems involving math and computers. </p>
 
