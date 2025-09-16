@@ -9,6 +9,6 @@ We introduce FlexMDM, a class of masked diffusion models for variable-length dat
 
 We further show that FlexMDM retains the any-order sampling guarantees of masked diffusion as established in prior [work](https://arxiv.org/abs/2502.06768) by Jaeyeon Kim and Kulin Shah.
 
-In wonderful co-author Jaeyeon Kim, we demonstrate that the method scales to 8B parameters and achieves notable performance improvements over previous masked diffusion models.
+With wonderful co-author Jaeyeon Kim, we demonstrate that the method scales to 8B parameters and achieves notable performance improvements over previous masked diffusion models.
 
 Also see concurrent work [EditFlow](https://arxiv.org/abs/2506.09018).
