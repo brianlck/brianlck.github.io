@@ -7,4 +7,4 @@ link: https://arxiv.org/abs/2502.06079
 ---
 Guidance in diffusion models are biased. By using a specific choice of intermediate distribution, this bias can be corrected with Sequential Monte Carlo.
 
-Also see concurrent work [Feynman-Kac Correctors](https://arxiv.org/abs/2503.02819) for a similar scheme, and follow-up work [Radon-Nikodym Estimators](https://arxiv.org/abs/2506.05668) to derive Sequential Monte Carlo schemes for more general targets.
+Also see concurrent work [Feynman-Kac Correctors](https://arxiv.org/abs/2503.02819) for a similar scheme, and follow-up work [Radon-Nikodym Estimators](https://arxiv.org/abs/2506.05668) for a more systematic way to derive Sequential Monte Carlo schemes for general targets.
