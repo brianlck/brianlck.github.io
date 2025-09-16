@@ -5,7 +5,7 @@
 	const papers = import.meta.glob('../../papers/*.md', {
 		eager: true
 	}) as Record<string, any>;
-	const images = import.meta.glob('../../papers/*.{png,jpg,svg}', {
+	const images = import.meta.glob('../../papers/*.{png,jpg,svg,mp4}', {
 		eager: true
 	}) as any;
 </script>
