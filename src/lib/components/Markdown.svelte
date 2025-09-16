@@ -33,5 +33,9 @@
 		@apply text-[95%];
 	}
 
+	.md-output :global(a) {
+		@apply underline;
+	}
+
 	@reference "../../app.css";
 </style>
