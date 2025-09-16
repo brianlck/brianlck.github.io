@@ -34,7 +34,9 @@
 	}
 
 	.md-output :global(a) {
-		@apply underline;
+		@apply underline underline-offset-[3px] decoration-neutral-400 dark:decoration-neutral-500;
+		@apply hover:text-black hover:decoration-black transition-colors;
+		@apply dark:hover:text-white dark:hover:decoration-white;
 	}
 
 	@reference "../../app.css";
