@@ -5,5 +5,6 @@ authors: ["Paul Jeha", "Jes Frellsen", "Michael Albergo", "Pietro Lio", "Francis
 image: smc-guidance.jpg
 link: https://arxiv.org/abs/2502.06079
 ---
+Guidance in diffusion models are biased. By using a specific choice of intermediate distribution, this bias can be corrected with Sequential Monte Carlo.
 
-Discrete diffusion models are a class of generative models that produce samples from an approximated data distribution within a discrete state space. Often, there is a need to target specific regions of the data distribution. Current guidance methods aim to sample from a distribution with mass proportional to $p_0(x_0)p(\zeta|x_0)^\alpha$ but fail to achieve this in practice. We introduce a Sequential Monte Carlo algorithm that generates unbiasedly from this target distribution, utilising the learnt unconditional and guided process. We validate our approach on low-dimensional distributions, controlled images and text generations. For text generation, our method provides strong control while maintaining low perplexity compared to guidance-based approaches.
+Also see concurrent work [Feynman-Kac Correctors](https://arxiv.org/abs/2503.02819) for a similar scheme, and follow-up work [Radon-Nikodym Estimators](https://arxiv.org/abs/2506.05668) to derive Sequential Monte Carlo schemes for more general targets.
