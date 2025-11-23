@@ -11,11 +11,9 @@
 
 <div class="layout font-light space-y-14 text-lg">
 	<div class="space-y-5">
-		<p> I currently work at Harvard. </p>
+		<p> I currently work in finance. Prevoiusly, I was a researcher at Harvard. </p>
 
-		<p> Before this, I worked at Cambridge where I completed my undergraduate studies. I have also held roles in quantitative finance. </p>
-
-		<p> In general, I'm passionate about all kinds of fun and challenging problems involving math and computers. </p>
+		<p> In general, I'm interested about practical mathematical and computational problems. </p>
 
 		<p> Feel free to reach out at <a class="link" href="mailto:brianlee.lck@gmail.com">brianlee.lck@gmail.com</a>. </p>
 	</div>
