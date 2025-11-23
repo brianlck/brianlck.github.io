@@ -13,7 +13,7 @@
 	<div class="space-y-5">
 		<p> I currently work in finance. Prevoiusly, I was a researcher at Harvard. </p>
 
-		<p> In general, I'm interested about practical mathematical and computational problems. </p>
+		<p> In general, I'm interested in practical mathematical and computational problems. </p>
 
 		<p> Feel free to reach out at <a class="link" href="mailto:brianlee.lck@gmail.com">brianlee.lck@gmail.com</a>. </p>
 	</div>
