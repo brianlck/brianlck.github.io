@@ -11,9 +11,9 @@
 
 <div class="layout font-light space-y-14 text-lg">
 	<div class="space-y-5">
-		<p> I currently work in finance. Prevoiusly, I was a researcher at Harvard. </p>
+		<p>I currently work at Jane Street. Previously, I was a researcher at Harvard and Cambridge, focused on projects with Michael Albergo and Francisco Vargas (2025). I hold an undergraduate degree from the University of Cambridge (2021–2024)</p>
 
-		<p> In general, I'm interested in practical mathematical and computational problems. </p>
+		<p> My interests lie in the application of mathematical and computational frameworks to practical, real-world problems. </p>
 
 		<p> Feel free to reach out at <a class="link" href="mailto:brianlee.lck@gmail.com">brianlee.lck@gmail.com</a>. </p>
 	</div>
