@@ -2,6 +2,7 @@
 	import Metadata from '$lib/components/Metadata.svelte';
 	import Paper from './Paper.svelte';
 
+	// Import all markdown files and assets
 	const papers = import.meta.glob('../../papers/*.md', {
 		eager: true
 	}) as Record<string, any>;
@@ -10,19 +11,32 @@
 		eager: true
 	}) as any;
 
+	// Month lookup for Safari-safe parsing
 	const monthMap: Record<string, number> = {
 		Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5,
 		Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11
 	};
 
+	// Convert object to array and sort by date descending
 	const sortedPapers = Object.entries(papers).sort(([_a, a], [_b, b]) => {
-		const [monthA, yearA] = a.date.split(' ');
-		const [monthB, yearB] = b.date.split(' ');
+		// Extract date strings (assumes format "Jan 2026")
+		const dateStrA = a.metadata?.date || "";
+		const dateStrB = b.metadata?.date || "";
 
-		const yearDiff = parseInt(yearB) - parseInt(yearA);
+		const [mA, yA] = dateStrA.split(' ');
+		const [mB, yB] = dateStrB.split(' ');
 
-		if (yearDiff !== 0) return yearDiff;
-		return monthMap[monthB] - monthMap[monthA];
+		// Convert years to numbers for comparison
+		const yearA = parseInt(yA);
+		const yearB = parseInt(yB);
+
+		// 1. Sort by Year first
+		if (yearB !== yearA) {
+			return yearB - yearA;
+		}
+
+		// 2. If years are equal, sort by month index
+		return (monthMap[mB] ?? 0) - (monthMap[mA] ?? 0);
 	});
 </script>
 
@@ -35,7 +49,7 @@
 
 <div class="layout font-seif space-y-10 text-lg">
 	<div class="space-y-10">
-		{#each sortedPapers as paper}
+		{#each sortedPapers as [_, paper]}
 			<Paper data={paper} {images} />
 		{/each}
 	</div>
