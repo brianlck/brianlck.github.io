@@ -2,12 +2,19 @@
 	import Metadata from '$lib/components/Metadata.svelte';
 	import Paper from './Paper.svelte';
 
-	const papers = import.meta.glob('../../papers/*.md', {
+	const papersRaw = import.meta.glob('../../papers/*.md', {
 		eager: true
 	}) as Record<string, any>;
+	
 	const images = import.meta.glob('../../papers/*.{png,jpg,svg,mp4}', {
 		eager: true
 	}) as any;
+
+	const sortedPapers = Object.values(papersRaw).sort((a, b) => {
+		const dateA = new Date(a.metadata?.date || 0).getTime();
+		const dateB = new Date(b.metadata?.date || 0).getTime();
+		return dateB - dateA;
+	});
 </script>
 
 <Metadata title="Brian Lee" description="Papers by Brian Lee" />
@@ -19,7 +26,7 @@
 
 <div class="layout font-seif space-y-10 text-lg">
 	<div class="space-y-10">
-		{#each Object.entries(papers) as [_, paper]}
+		{#each sortedPapers as paper}
 			<Paper data={paper} {images} />
 		{/each}
 	</div>
