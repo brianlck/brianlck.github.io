@@ -1,5 +1,6 @@
 ---
-title: Tilt Matching
+title: Tilt Matching for Scalable Sampling and
+Fine-Tuning
 date: Jan 2026
 authors: ["Peter Potaptchik", "Michael Albergo"]
 image: tilt-matching.png
