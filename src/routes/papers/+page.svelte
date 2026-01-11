@@ -20,8 +20,8 @@
 	// Convert object to array and sort by date descending
 	const sortedPapers = Object.entries(papers).sort(([_a, a], [_b, b]) => {
 		// Extract date strings (assumes format "Jan 2026")
-		const dateStrA = a.metadata?.date || "";
-		const dateStrB = b.metadata?.date || "";
+		const dateStrA = a.date || "";
+		const dateStrB = b.date || "";
 
 		const [mA, yA] = dateStrA.split(' ');
 		const [mB, yB] = dateStrB.split(' ');
