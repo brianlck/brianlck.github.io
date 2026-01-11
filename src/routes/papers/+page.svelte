@@ -10,10 +10,19 @@
 		eager: true
 	}) as any;
 
-	const sortedPapers = Object.values(papersRaw).sort((a, b) => {
-		const dateA = new Date(a.date || 0).getTime();
-		const dateB = new Date(b.date || 0).getTime();
-		return dateB - dateA;
+	const monthMap: Record<string, number> = {
+		Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5,
+		Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11
+	};
+
+	const sortedPapers = Object.entries(papers).sort(([_a, a], [_b, b]) => {
+		const [monthA, yearA] = a.date.split(' ');
+		const [monthB, yearB] = b.date.split(' ');
+
+		const yearDiff = parseInt(yearB) - parseInt(yearA);
+
+		if (yearDiff !== 0) return yearDiff;
+		return monthMap[monthB] - monthMap[monthA];
 	});
 </script>
 
