@@ -2,7 +2,7 @@
 	import Metadata from '$lib/components/Metadata.svelte';
 	import Paper from './Paper.svelte';
 
-	const papersRaw = import.meta.glob('../../papers/*.md', {
+	const papers = import.meta.glob('../../papers/*.md', {
 		eager: true
 	}) as Record<string, any>;
 	
