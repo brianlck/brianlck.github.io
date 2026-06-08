@@ -12,7 +12,7 @@
 <div class="layout font-light space-y-14 text-lg">
 	<div class="space-y-5">
 		<p> I currently work at Jane Street. </p>
-		<p> Previously, I was a researcher at Harvard and Cambridge, where I study the mathematical characterisation of dynamical systems in generative modeling and the natural sciences.. </p>
+		<p> Previously, I was a researcher at Harvard and Cambridge, where I study the mathematical characterisation of dynamical systems in generative modeling and the natural sciences. </p>
 		<p> Once upon a time, I did an undergraduate degree at the University of Cambridge too! </p>
 		<p> Feel free to reach out at <a class="link" href="mailto:brianlee.lck@gmail.com">brianlee.lck@gmail.com</a>. </p>
 	</div>
