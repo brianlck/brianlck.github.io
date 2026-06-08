@@ -12,10 +12,9 @@
 <div class="layout font-light space-y-14 text-lg">
 	<div class="space-y-5">
 		<p>I currently work at Jane Street. </p>
-		<p> Previously, I was a researcher at Harvard and Cambridge, working with Michael Albergo and Francisco Vargas (2025). </p>
-		<p> I hold an undergraduate degree from the University of Cambridge (2021–2024)</p>
-		<p> My interests lie in the application of mathematical and computational frameworks to practical, real-world problems. </p>
-
+		<p> Previously, I was a researcher at Harvard and Cambridge. </p>
+		<p> Once upon a time, I did an undergraduate degree at the University of Cambridge </p>
+		<p> I study the mathematical characterisation of dynamical systems in generative modeling and the natural sciences. </p>
 		<p> Feel free to reach out at <a class="link" href="mailto:brianlee.lck@gmail.com">brianlee.lck@gmail.com</a>. </p>
 	</div>
 
