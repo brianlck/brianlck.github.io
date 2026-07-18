@@ -11,17 +11,17 @@
 
 <div class="layout font-light space-y-14 text-lg">
     <div class="space-y-5">
-	    <p>I am working on a new research lab.</p>
+		<p>I am building a new research lab.</p>
 	
-	    <p>Previously, I worked on the theory of generative modeling at Harvard and Cambridge.</p>
+		<p>Before this, I spent some time back home in Hong Kong, working at Jane Street.</p>
 	
-	    <p>I completed my undergraduate studies at Cambridge.</p>
+		<p>Earlier, I worked on the theory of generative modeling at Harvard and Cambridge.</p>
 	
-	    <p>Along the way, I briefly returned home to Hong Kong and worked at Jane Street.</p>
+		<p>I completed my undergraduate studies at Cambridge.</p>
 	
-	    <p>I can be found in Hong Kong, London, or San Francisco.</p>
+		<p>These days, I can be found in Hong Kong, London, or San Francisco.</p>
 	
-	    <p>Feel free to reach out at <a class="link" href="mailto:brianlee.lck@gmail.com">brianlee.lck@gmail.com</a>.</p>
+		<p>Feel free to reach out at <a class="link" href="mailto:brianlee.lck@gmail.com">brianlee.lck@gmail.com</a>.</p>
 	</div>
 	<div class="space-y-5">
 		<img alt="Brian Lee sitting on a bench in Richmond" src="/assets/photo.jpg" />
