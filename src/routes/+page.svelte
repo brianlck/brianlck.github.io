@@ -12,15 +12,15 @@
 <div class="layout font-light space-y-14 text-lg">
     <div class="space-y-5">
 		<p>I am building a new research lab.</p>
+
+	    <p>Before this, a stint at Jane Street brought me home to Hong Kong.</p>
 	
-		<p>Before this, I was home in Hong Kong, working at Jane Street.</p>
+	    <p>At Harvard and Cambridge, I worked on the theory of generative modeling.</p>
 	
-		<p>Earlier, I worked on the theory of generative modeling at Harvard and Cambridge.</p>
+	    <p>Cambridge is also where I completed my undergraduate studies.</p>
 	
-		<p>I completed my undergraduate studies at Cambridge.</p>
-	
-		<p>I can be found in Hong Kong, London, or San Francisco.</p>
-	
+	    <p>These days, you can find me in Hong Kong, London, or San Francisco.</p>
+		
 		<p>Feel free to reach out at <a class="link" href="mailto:brianlee.lck@gmail.com">brianlee.lck@gmail.com</a>.</p>
 	</div>
 	<div class="space-y-5">
