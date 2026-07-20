@@ -13,11 +13,11 @@
     <div class="space-y-5">
 		<p>I working on a new research lab.</p>
 
-		<p>Prior to this, I was a researcher in academia working on the theory of generative modeling. </p>
+		<p>Previously, I worked on the theory of generative modeling at Harvard. </p>
 	
 	    <p>I completed my undergraduate studies at Cambridge. </p>
 	
-	    <p>These days, you can find me in Hong Kong, London, or San Francisco.</p>
+	    <p>You can find me in Hong Kong, London, or San Francisco.</p>
 		
 		<p>Feel free to reach out at <a class="link" href="mailto:brianlee.lck@gmail.com">brianlee.lck@gmail.com</a>.</p>
 	</div>
