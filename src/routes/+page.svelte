@@ -11,9 +11,11 @@
 
 <div class="layout font-light space-y-14 text-lg">
     <div class="space-y-5">
-		<p>I working on a new research lab.</p>
+		<p>I am working on a new research lab.</p>
 
 		<p>Previously, I worked on the theory of generative modeling at Harvard. </p>
+
+		<p>Between the new venture and academia, I briefly worked at Jane Stret in Hong Kong. </p>
 	
 	    <p>I completed my undergraduate studies at Cambridge. </p>
 	
@@ -24,7 +26,7 @@
 	<div class="space-y-5">
 		<img alt="Brian Lee sitting on a bench in Richmond" src="/assets/photo.jpg" />
 		<p class="text-center text-sm text-neutral-500">
-			A bench at Richmond, London. The dialogue references the 1979 film "Life of Brian"
+			A bench at Richmond, London. Dialogue references the 1979 film "Life of Brian"
 		</p>
 	</div>
 </div>
