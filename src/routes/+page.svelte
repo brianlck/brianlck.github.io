@@ -11,13 +11,11 @@
 
 <div class="layout font-light space-y-14 text-lg">
     <div class="space-y-5">
-		<p>I am building a new research lab.</p>
+		<p>I working on a new research lab.</p>
 
-	    <p>Before this, a stint at Jane Street brought me home to Hong Kong.</p>
+		<p> Prior to this, I was a researcher in academia working on generative modeling.
 	
-	    <p>At Harvard and Cambridge, I worked on the theory of generative modeling.</p>
-	
-	    <p>Cambridge is also where I completed my undergraduate studies.</p>
+	    <p> I completed my undergraduate studies at Cambridge. </p>
 	
 	    <p>These days, you can find me in Hong Kong, London, or San Francisco.</p>
 		
