@@ -13,9 +13,9 @@
     <div class="space-y-5">
 		<p>I working on a new research lab.</p>
 
-		<p> Prior to this, I was a researcher in academia working on generative modeling.
+		<p>Prior to this, I was a researcher in academia working on the theory of generative modeling. </p>
 	
-	    <p> I completed my undergraduate studies at Cambridge. </p>
+	    <p>I completed my undergraduate studies at Cambridge. </p>
 	
 	    <p>These days, you can find me in Hong Kong, London, or San Francisco.</p>
 		
