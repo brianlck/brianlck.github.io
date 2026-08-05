@@ -1,5 +1,5 @@
 ---
-title: Beckmann Transport Models: From Autonomous Flows to One-Step Maps
+title: "Beckmann Transport Models: From Autonomous Flows to One-Step Maps"
 date: Jul 2025
 authors: ["Florentin Coeurdoux", "Peter Potaptchik", "Yilun Du", "Michael Albergo", "Eric Vanden-Eijnden"]
 image: btm.mp4
