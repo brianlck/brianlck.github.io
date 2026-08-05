@@ -11,11 +11,11 @@
 
 <div class="layout font-light space-y-14 text-lg">
     <div class="space-y-5">
-		<p>I am working on a new research lab.</p>
+		<p>I am working on something new.</p>
 
 		<p>Previously, I worked on the theory of generative modeling at Harvard. </p>
 
-		<p>Between the new venture and academia, I briefly worked at Jane Stret in Hong Kong. </p>
+		<p>Between the new venture and academia, I briefly worked at Jane Street in Hong Kong. </p>
 	
 	    <p>I completed my undergraduate studies at Cambridge. </p>
 	
