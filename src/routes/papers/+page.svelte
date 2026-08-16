@@ -47,7 +47,7 @@
 	<hr class="mt-5" />
 </div>
 
-<div class="layout font-seif space-y-10 text-lg">
+<div class="layout font-serif space-y-10 text-lg">
 	<div class="space-y-10">
 		{#each sortedPapers as [_, paper]}
 			<Paper data={paper} {images} />
