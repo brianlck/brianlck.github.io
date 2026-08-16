@@ -23,7 +23,7 @@
 		
 		<p>Feel free to reach out at <a class="link" href="mailto:brianlee.lck@gmail.com">brianlee.lck@gmail.com</a>.</p>
 	</div>
-	<div class="space-y-5">
+	<div class="max-w-screen-md mx-auto space-y-5">
 		<img alt="Brian Lee sitting on a bench in Richmond" src="/assets/photo.jpg" />
 		<p class="text-center text-sm text-neutral-500">
 			A bench at Richmond, London. Dialogue references the 1979 film "Life of Brian"
