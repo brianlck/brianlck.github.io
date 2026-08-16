@@ -34,26 +34,6 @@
       {/if}
     {/each}
   </p>
-  {#if data.image}
-    {#if data.image.endsWith('.mp4')}
-      <video
-        src={images[`../../papers/${data.image}`]?.default}
-        autoplay
-        loop
-        muted
-        playsinline
-        class="mx-auto max-h-96 rounded-lg"
-      >
-        Your browser does not support the video tag.
-      </video>
-    {:else}
-      <img
-        src={images[`../../papers/${data.image}`]?.default}
-        alt="{data.title} preview image"
-        class="mx-auto max-h-96"
-      />
-    {/if}
-  {/if}
   <Markdown source={data.content} />
 
   <hr />
