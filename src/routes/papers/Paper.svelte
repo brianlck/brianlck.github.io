@@ -34,7 +34,5 @@
       {/if}
     {/each}
   </p>
-  <Markdown source={data.content} />
-
   <hr />
 </div>
