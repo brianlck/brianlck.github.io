@@ -15,12 +15,16 @@
 </script>
 
 <div class="space-y-4">
-  <h3 class="mb-2 flex items-start justify-between gap-4 text-xl font-semibold text-black">
+  <h3
+    class="mb-2 grid w-full grid-cols-[minmax(0,1fr)_auto] items-start gap-4 text-xl font-semibold text-black"
+  >
     <a class="link min-w-0" href={data.link}>
       {data.title}
     </a>
 
-    <small class="shrink-0 whitespace-nowrap text-base font-normal text-neutral-500">
+    <small
+      class="whitespace-nowrap text-right text-base font-normal text-neutral-500"
+    >
       {data.date}
     </small>
   </h3>
@@ -29,8 +33,16 @@
     <span class="g">With </span>
 
     {#each data.authors as author, i}
-      <span class="whitespace-nowrap">
-        {author}{#if i < data.authors.length - 2}<span class="g">,&nbsp;</span>{:else if i === data.authors.length - 2}<span class="g">,&nbsp;and&nbsp;</span>{/if}
+      {#if i > 0}
+        {#if i === data.authors.length - 1}
+          <span class="g">, and </span>
+        {:else}
+          <span class="g">, </span>
+        {/if}
+      {/if}
+
+      <span class="inline-block whitespace-nowrap">
+        {author}
       </span>
     {/each}
   </p>
