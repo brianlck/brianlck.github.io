@@ -30,20 +30,14 @@
   </h3>
 
   <p class="font-serif">
-    <span class="g">With </span>
-
+    <span class="g">With </span>    
     {#each data.authors as author, i}
-      {#if i > 0}
-        {#if i === data.authors.length - 1}
-          <span class="g">, and </span>
-        {:else}
-          <span class="g">, </span>
-        {/if}
+      {#if i < data.authors.length - 2}
+        <span class="whitespace-nowrap">{author},</span>{' '}
+      {:else if i === data.authors.length - 2}
+        <span class="whitespace-nowrap">{author},</span>{' '}
+        <span class="whitespace-nowrap">and&nbsp;{data.authors[i + 1]}</span>
       {/if}
-
-      <span class="inline-block whitespace-nowrap">
-        {author}
-      </span>
     {/each}
   </p>
 
